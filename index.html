@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mezuniyet Kutlaması</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cairo:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- زر البداية -->
+  <div class="entry-screen" id="entry-screen">
+    <button onclick="enterSite()">📩  </button>
+  </div>
+
+  <!-- القلوب المتحركة -->
+  <div class="hearts-container" id="hearts"></div>
+
+  <!-- الكارت -->
+  <div class="card hidden" id="card">
+    <h1>🎓 Mezuniyetini tebrik ederim</h1>
+    <h2>Allah nişanımızı nasip etsin 💍</h2>
+    
+    <p class="name">My Lovely Enas</p>
+
+    <div id="messages" class="messages hidden"></div>
+
+    <button onclick="showMessages()">🎁 Yeni mesaj</button>
+    <button onclick="goBack()">⬅️ </button>
+    <button onclick="toggleMusic()">🎵 </button>
+
+    <footer>— Kimden: Youssef 💌</footer>
+  </div>
+
+  <!-- الأغنية -->
+  <audio id="bg-music" loop>
+    <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_8d11b18b34.mp3?filename=romantic-piano-ambient-110875.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- السكريبت -->
+  <script src="script.js"></script>
+</body>
+</html>
