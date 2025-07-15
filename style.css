@@ -108,5 +108,43 @@ footer {
   @keyframes fadeOut {
     to { opacity: 0; }
   }
+  @media (max-width: 768px) {
+    body {
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .entry-screen,
+    .card {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .card {
+      font-size: 14px;
+    }
+  
+    h1 {
+      font-size: 1.5em;
+    }
+  
+    h2 {
+      font-size: 1.1em;
+    }
+  
+    .name {
+      font-size: 1.4em;
+    }
+  
+    .messages {
+      font-size: 1em;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+  
   
 /* تم حذف القلوب */
